@@ -1,9 +1,22 @@
-import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from "react";
+import { FaReact } from "react-icons/fa";
+import { FiFigma, FiDatabase, FiDownloadCloud } from "react-icons/fi";
 
-const Technologies = () =>  (
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from "./TechnologiesStyles";
+
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
     <br />
@@ -14,33 +27,51 @@ const Technologies = () =>  (
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem" />
         <ListContainer>
+          <FaReact size="3rem" />
           <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            React.js
-          </ListParagraph>
+          <ListParagraph>JavaScript</ListParagraph>
+          <ListParagraph>React.js</ListParagraph>
+          <ListParagraph>Vue.js</ListParagraph>
+          <ListParagraph>Angular</ListParagraph>
+          <ListParagraph>TypeScript</ListParagraph>
+          <ListParagraph>Tailwind CSS</ListParagraph>
+          <ListParagraph>Bootstrap</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <FiDatabase size="3rem" />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Node and Databases
-          </ListParagraph>
+          <ListParagraph>NodeJS</ListParagraph>
+          <ListParagraph>ExpressJS</ListParagraph>
+          <ListParagraph>Python</ListParagraph>
+          <ListParagraph>Django</ListParagraph>
+          <ListParagraph>Flask</ListParagraph>
+          <ListParagraph>Jest</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="3rem" />
+        <FiDownloadCloud size="3rem" />
+        <ListContainer>
+          <ListTitle>Cloud & Database</ListTitle>
+          <ListParagraph>MySQL</ListParagraph>
+          <ListParagraph>GraphQL</ListParagraph>
+          <ListParagraph>MongoDB</ListParagraph>
+          <ListParagraph>Postgres</ListParagraph>
+          <ListParagraph>AWS</ListParagraph>
+          <ListParagraph>Firebase</ListParagraph>
+          <ListParagraph>Google Cloud Platform</ListParagraph>
+          <ListParagraph>Microsoft Azure</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <FiFigma size="3rem" />
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Figma
-          </ListParagraph>
+          <ListParagraph>Figma</ListParagraph>
+          <ListParagraph>Sketch</ListParagraph>
+          <ListParagraph>Webflow</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
