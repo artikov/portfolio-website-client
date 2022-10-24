@@ -1,5 +1,6 @@
 import React from "react";
 
+import {cv} from '../../constants/constants'
 import {
   Section,
   SectionText,
@@ -19,9 +20,11 @@ const Hero = () => (
         experience.
       </SectionText>
       {/* //Change this */}
-      <Button onClick={() => (window.location = "https://google.com")}>
-        Get To Know More
-      </Button>
+      <a href={cv.cv} download>
+        <Button>
+          Get My Resume
+        </Button>
+      </a>
     </LeftSection>
   </Section>
 );

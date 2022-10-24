@@ -51,3 +51,5 @@ export const AcomplishmentsData = [
   { number: 100, text: "Client Projects" },
   { number: 1000, text: "Github Commits" },
 ];
+
+export const cv = { cv: '/assets/cv.pdf'}

@@ -19,7 +19,12 @@ const Header = () => (
       <Link href="/">
         <a
           href=""
-          style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "20px" }}
+          style={{
+            display: "flex",
+            alignItems: "center",
+            color: "white",
+            marginBottom: "20px",
+          }}
         >
           <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
         </a>
@@ -43,10 +48,13 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com">
+      {/* <SocialIcons href="https://github.com" target="_blank">
         <AiFillGithub size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://linkedin.com">
+      </SocialIcons> */}
+      <SocialIcons
+        href="https://www.linkedin.com/in/jamal-j-a-a189831a1/"
+        target="_blank"
+      >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
       {/* <SocialIcons href="https://github.com">
