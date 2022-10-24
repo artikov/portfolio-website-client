@@ -44,3 +44,10 @@ export const TimeLineData = [
   { year: 2021, text: 'Promoted to Senior Full Stack Engineer @ Vertex', },
   { year: 2022, text: 'Worked as a Senior Full Stack Engineer @ Actum Lab', },
 ];
+
+export const AcomplishmentsData = [
+  { number: 7, text: "Years of Experience" },
+  { number: 20, text: "Open Source Projects" },
+  { number: 100, text: "Client Projects" },
+  { number: 1000, text: "Github Commits" },
+];
